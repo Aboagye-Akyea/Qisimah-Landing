@@ -24,7 +24,7 @@ export default StyleSheet.create({
         "marginRight": 0,
         "marginBottom": 0,
         "marginLeft": 0,
-        "fontSize": 16,
+        "fontSize": 19,
         "lineHeight": 28,
         "color": "#777",
         "background": "#fff",
@@ -118,7 +118,7 @@ export default StyleSheet.create({
     },
     "fullscreen": {
         "width": "100%",
-        "minHeight": 100 * vh,
+        "minHeight": "100%",
         "backgroundRepeat": "no-repeat",
         "backgroundPosition": "50% 50%\\9 !important"
     },
@@ -126,8 +126,20 @@ export default StyleSheet.create({
         "backgroundColor": "rgba(0, 0, 0, 0.5)",
         "position": "relative",
         "width": "100%",
-        "height": 100 * vh,
+        "height": "100%",
         "display": "block"
+    },
+    "musician": {
+        "width": "100%",
+        "minHeight": "100%",
+        "backgroundRepeat": "no-repeat",
+        "backgroundPosition": "50% 50%\\9 !important"
+    },
+    "advertiser": {
+        "width": "100%",
+        "minHeight": "100%",
+        "backgroundRepeat": "no-repeat",
+        "backgroundPosition": "50% 50%\\9 !important"
     },
     "menu": {
         "zIndex": 99
@@ -468,12 +480,16 @@ export default StyleSheet.create({
     "feature inner": {
         "float": "left",
         "display": "inline-block",
-        "width": "80%"
+        "width": "80%",
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 50,
+        "paddingLeft": 0
     },
     "feature-2": {
         "paddingTop": 100,
         "paddingRight": 0,
-        "paddingBottom": 100,
+        "paddingBottom": 0,
         "paddingLeft": 0
     },
     "feature-2 h2": {
